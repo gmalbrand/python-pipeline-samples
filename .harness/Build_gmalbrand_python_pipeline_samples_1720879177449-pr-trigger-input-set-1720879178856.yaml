@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gmalbrand_python_pipeline_samples_1720879177449-pr-trigger-input-set
+  identifier: Build_gmalbrand_python_pipeline_samples_1720879177449prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: python_demo
+  pipeline:
+    identifier: Build_gmalbrand_python_pipeline_samples_1720879177449
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
