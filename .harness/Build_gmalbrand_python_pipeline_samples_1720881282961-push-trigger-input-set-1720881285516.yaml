@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gmalbrand_python_pipeline_samples_1720881282961-push-trigger-input-set
+  identifier: Build_gmalbrand_python_pipeline_samples_1720881282961pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: python_demo
+  pipeline:
+    identifier: Build_gmalbrand_python_pipeline_samples_1720881282961
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
